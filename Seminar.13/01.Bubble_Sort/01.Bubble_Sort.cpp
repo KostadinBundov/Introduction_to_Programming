@@ -7,7 +7,7 @@ void swap(int& a, int& b)
 	b = temp;
 }
 
-void shakerSort(int* arr, size_t size)
+void bubbleSort(int* arr, size_t size)
 {
 	int lastSwappedIndex = size - 1;
 
@@ -45,7 +45,7 @@ int main()
 		std::cin >> arr[i];
 	}
 
-	shakerSort(arr, size);
+	bubbleSort(arr, size);
 
 	for (int i = 0; i < size; i++)
 	{
